@@ -1,4 +1,24 @@
 .parallax-container {
-    height: 650px;
+    height: 600px;
   }
      
+.linkedin {
+ height: 25px;
+ margin-right: 50px;
+}
+
+.github {
+height: 25px;
+}
+
+.footer-copyright {
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+img.me {
+    margin-top: 10%;
+    border-radius: 50%;
+    height: 350px;
+  }

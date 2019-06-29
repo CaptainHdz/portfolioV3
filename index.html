@@ -10,12 +10,42 @@
     <link rel="stylesheet" href="./public/css/style.css">
 </head>
 
-<body class="grey lighten-2">
-
+<body class="">
+        <!-- <nav class="transparent">
+                <div class="nav-wrapper">
+                  <a href="#" class="brand-logo center"></a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="sass.html">About</a></li>
+                    <li><a href="badges.html">Portfolio</a></li>
+                    <li><a href="collapsible.html">Contact</a></li>
+                  </ul>
+                </div>
+              </nav> -->
     <div class="parallax-container">
+            <nav class="transparent z-depth-0">
+                    <div class="nav-wrapper">
+                      <a href="#" class="brand-logo center"></a>
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a class="about" href="#aboutme">About</a></li>
+                        <li><a class="portfolio" href="#portfolio">Portfolio</a></li>
+                        <li><a data-target="modal1" class="modal-trigger" href="">Contact</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+                  <div id="modal1" class="modal">
+                        <div class="modal-content">
+                          <h3>Email:</h3>
+                          <p>Mauro.hdz99@gmail.com</p>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                        </div>
+                      </div>
+                              
         <div class="parallax"><img src="./public/images/starry_sky_clouds_sunset_120716_1920x1200.jpg"></div>
+        <div class="center"><img class="me" src="./public/images/IMG_5620.jpg" alt="Mauricio"></div>
     </div>
-    <div class="section grey lighten-2 z-depth-3">
+    <div id="aboutme" class="section grey lighten-2 z-depth-3">
         <div class="row container">
             <h2 class="header blue-text text-darken-2">Hi, I'm Mauricio Hernandez.
                 <br>
@@ -38,7 +68,7 @@
         <div class="parallax"><img src="./public/images/starry_sky_night_trees_night_landscape_118760_1920x1080.jpg">
         </div>
     </div>
-    <div class="">
+    <div id="portfolio" class="">
         <h2 class="blue-text text-darken-2 text-center center-align">Check Out My Work</h2>
         <div class="container">
             <div class="row">
@@ -50,12 +80,14 @@
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Message Box<i
                                     class="material-icons right"></i></span>
-                            <p><a href="#">Go to live site</a></p>
+                            <p><a href="https://glacial-escarpment-32242.herokuapp.com/">Go to live site</a></p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Message Box<i
                                     class="material-icons right">close</i></span>
-                            <p>A prototype project I took part in. The app can send a message to a verified number. In the future it is intended to be able to send, recieve and display the conversation among two numbers.
+                            <p>A prototype project I took part in. The app can send a message to a verified number. In
+                                the future it is intended to be able to send, recieve and display the conversation among
+                                two numbers.
                             </p>
                         </div>
                     </div>
@@ -68,12 +100,13 @@
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">RPS Game<i
                                     class="material-icons right"></i></span>
-                            <p><a href="#">Go to live site</a></p>
+                            <p><a href="https://captainhdz.github.io/RPS-Multiplayer/">Go to live site</a></p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">RPS Game<i
                                     class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.
+                            <p>Feel free to play a classic game of Rock, Paper, Scissors with a buddy! The app will hold
+                                a multiplayer game between two users.
                             </p>
                         </div>
                     </div>
@@ -86,12 +119,13 @@
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Live At The Casino<i
                                     class="material-icons right"></i></span>
-                            <p><a href="#">Go to live site</a></p>
+                            <p><a href="https://amorales944.github.io/Project_01/">Go to live site</a></p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Live At The Casino<i
                                     class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.
+                            <p>A prototype slot machine I worked on with a team. In the future it is intended to have a
+                                leaderboard and a login to track the scores for individuals to compete.
                             </p>
                         </div>
                     </div>
@@ -99,9 +133,33 @@
 
             </div>
         </div>
+        <div class="footer-copyright grey darken-3">
+                <div class="container">
+                    © 2019 Copyright Text
+                    <a class=" center grey-text text-lighten-4 right" href="https://github.com/CaptainHdz">
+                        <img class="github center" src="./public/images/GitHub-Mark-Light-120px-plus.png" alt="github">
+                    </a>
+        
+                    <a class="grey-text text-lighten-4 right" href="https://www.linkedin.com/in/mauricio-hernandez-54170617b/">
+                        <img class="linkedin" src="./public/images/LinkedIN-icon.png" alt="linkedin">
+                    </a>
+                </div>
+            </div>
+
     </div>
 
+    <!-- <div class="footer-copyright grey darken-3">
+        <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="https://github.com/CaptainHdz">
+                <img class="github" src="./public/images/GitHub-Mark-Light-120px-plus.png" alt="github">
+            </a>
 
+            <a class="grey-text text-lighten-4 right" href="https://www.linkedin.com/in/mauricio-hernandez-54170617b/">
+                <img class="linkedin" src="./public/images/LinkedIN-icon.png" alt="linkedin">
+            </a>
+        </div>
+    </div> -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
